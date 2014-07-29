@@ -1,0 +1,4 @@
+.env
+====
+
+Personal environment setup
