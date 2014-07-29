@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -type f -name "*.[c|h]" -exec egrep --color=auto -Hn "$1" \{} \;
+find . -type f -name "*.cpp" -exec egrep --color=auto -Hn "$1" \{} \;
+find . -type f -name "*.hpp" -exec egrep --color=auto -Hn "$1" \{} \;

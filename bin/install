@@ -1,5 +1,0 @@
-#!/bin/bash
-
-brew install git bash-completion
-git config --global user.name "Shao-Chuan Wang"
-git config --global user.email "shaochuan.wang@gmail.com"
