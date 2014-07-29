@@ -10,6 +10,10 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
+# Alias short cuts
+export REPO_ROOT="~/repo"
+alias repo="cd $REPO_ROOT"
+
 # Git prompt 
 GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="yes"
