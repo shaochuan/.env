@@ -8,6 +8,11 @@ git config --global user.email "shaochuan.wang@gmail.com"
 # Scala and play
 brew install scala
 brew install typesafe-activator
+brew install sbt
+
+# Java related
+brew install ant
+brew install maven
 
 # Pip
 curl -O https://bootstrap.pypa.io/get-pip.py

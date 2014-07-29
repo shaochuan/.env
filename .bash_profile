@@ -2,9 +2,6 @@
 # Terminal
 export CLICOLOR=1
 
-# Paths
-export PATH=$PATH:~/bin
-
 # Git completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
@@ -17,6 +14,9 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export REPO_ROOT="~/repo"
 alias repo="cd $REPO_ROOT"
 alias j6="JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home;java"
+
+# Paths
+export PATH=$PATH:~/bin:$REPO_ROOT/cassandra/bin
 
 # Git prompt 
 GIT_PS1_SHOWUPSTREAM="auto"
