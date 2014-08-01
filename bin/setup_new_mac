@@ -21,6 +21,7 @@ sudo python get-pip.py
 # python fabrics
 sudo pip install paramiko==1.10
 sudo pip install fabric
+sudo pip install boto
 
 # Python ML-related
 sudo pip install pandas==0.13.1

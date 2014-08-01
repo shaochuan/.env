@@ -9,7 +9,7 @@ fi
 
 # Environment variables
 export JAVA_HOME=$(/usr/libexec/java_home)
-export SCALA_HOME="/usr/local/Cellar/scala/2.11.2"
+export SCALA_HOME="/usr/local/Cellar/scala/2.10.2"
 
 # Alias short cuts
 export REPO_ROOT="~/repo"
