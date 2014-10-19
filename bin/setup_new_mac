@@ -10,9 +10,16 @@ brew install scala
 brew install typesafe-activator
 brew install sbt
 
+# Dev env
+brew install cmake
+brew install protobuf
+
 # Java related
 brew install ant
 brew install maven
+
+# S3
+brew install s3cmd
 
 # Pip
 curl -O https://bootstrap.pypa.io/get-pip.py

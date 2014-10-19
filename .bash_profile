@@ -14,6 +14,7 @@ export SCALA_HOME="/usr/local/Cellar/scala/2.10.2"
 # Alias short cuts
 export REPO_ROOT="~/repo"
 alias repo="cd $REPO_ROOT"
+alias g="git"
 alias j6="JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home;java"
 
 # Paths
