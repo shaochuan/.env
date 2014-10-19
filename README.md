@@ -4,6 +4,7 @@ Bash environment setup
   Personal environment setup
 
  * Commonly used scripts.
+ * Installation of user packages and software.
  * Git prompt and completion.
 
 Installation
