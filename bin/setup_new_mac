@@ -13,6 +13,7 @@ brew install sbt
 # Dev env
 brew install cmake
 brew install protobuf
+brew install tmux
 
 # Java related
 brew install ant
