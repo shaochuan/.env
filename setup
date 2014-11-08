@@ -2,3 +2,4 @@
 
 ln -s ~/.env/bin ~/bin
 ln -s ~/.env/.bash_profile ~/.bash_profile
+ln -s ~/.env/.tmux.conf ~/.tmux.conf
